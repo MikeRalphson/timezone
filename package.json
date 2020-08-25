@@ -1,0 +1,33 @@
+{
+  "name": "timezone",
+  "version": "1.0.0",
+  "description": "Generates a `shields.io` style badge based on a source datetime and timezone in your local timezone, as returned from a geo-ip lookup.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike Ralphson",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "@koa/router": "^9.4.0",
+    "badge-maker": "^3.2.0",
+    "geoip-lite": "^1.4.2",
+    "koa": "^2.13.0",
+    "moment-timezone": "^0.5.31"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikeRalphson/timezone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MikeRalphson/timezone/issues"
+  },
+  "homepage": "https://github.com/MikeRalphson/timezone#readme",
+  "keywords": [
+    "time",
+    "timezone",
+    "date",
+    "meeting"
+  ]
+}
